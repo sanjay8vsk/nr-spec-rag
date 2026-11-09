@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+.env
+.env.*
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Local data and indexes
+data/raw/*
+data/processed/*
+data/indexes/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+!data/indexes/.gitkeep
+
+# Outputs
+outputs/
+*.log
+.DS_Store

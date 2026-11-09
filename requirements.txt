@@ -1,0 +1,6 @@
+# Initial environment only; pin versions after the first compatibility check.
+pandas
+pydantic
+python-dotenv
+pytest
+jupyter
